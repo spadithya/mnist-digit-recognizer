@@ -1,0 +1,17 @@
+# Core scientific stack
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12
+
+# Phase 2 baseline
+scikit-learn>=1.3
+
+# Phase 4-5: PyTorch + image utilities
+# (CPU build by default; install CUDA flavor from pytorch.org if you have a GPU)
+torch>=2.2
+torchvision>=0.17
+
+# Phase 6: Streamlit app
+streamlit>=1.30
+streamlit-drawable-canvas>=0.9   # canvas widget for the "draw a digit" demo
+pillow>=10.0
