@@ -37,8 +37,11 @@ models/*
 # ----------------------------------------------------------------------------
 # Plots (generated)
 # ----------------------------------------------------------------------------
+# PNGs in plots/ folders ARE tracked so they render on GitHub.
+# Other generated junk (intermediate .pdf, .npy, etc.) stays ignored.
 **/plots/*
 !**/plots/.gitkeep
+!**/plots/*.png
 
 # ----------------------------------------------------------------------------
 # Python
